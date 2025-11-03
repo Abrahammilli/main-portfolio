@@ -5,8 +5,8 @@ import { Github, Linkedin, Mail, Heart } from "lucide-react"
 
 export function Footer() {
   const socialLinks = [
-    { icon: Github, href: "#", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Github, href: "https://github.com/Abrahammilli", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/abraham-oludare-65432238a/", label: "LinkedIn" },
     { icon: Mail, href: "#contact", label: "Email" },
   ]
 
@@ -21,7 +21,7 @@ export function Footer() {
           viewport={{ once: true }}
         >
           <div className="text-center md:text-left">
-            <p className="text-muted-foreground">© 2024 John Doe. All rights reserved.</p>
+            <p className="text-muted-foreground">© 2024 Milli Tech. All rights reserved.</p>
             <p className="text-sm text-muted-foreground flex items-center justify-center md:justify-start mt-1">
               Made with <Heart className="h-4 w-4 mx-1 text-red-500" /> and lots of coffee
             </p>

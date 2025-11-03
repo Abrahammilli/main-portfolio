@@ -5,28 +5,28 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, MapPin, Phone } from "lucide-react"
+import { Mail, Phone } from "lucide-react"
 
 export function Contact() {
   const contactInfo = [
     {
       icon: Mail,
       title: "Email",
-      value: "john.doe@example.com",
-      href: "mailto:john.doe@example.com",
+      value: "abrahamoludare17@gmail.com",
+      href: "mailto:abrahamoludare17@gmail.com",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+234 8129549505",
+      href: "tel:+234 8129549505",
     },
-    {
-      icon: MapPin,
-      title: "Location",
-      value: "San Francisco, CA",
-      href: "#",
-    },
+    // {
+    //   icon: MapPin,
+    //   title: "Location",
+    //   value: "San Francisco, CA",
+    //   href: "#",
+    // },
   ]
 
   return (
@@ -101,29 +101,31 @@ export function Contact() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <label htmlFor="firstName" className="text-sm font-medium">
-                      First Name
+                      Full Name
                     </label>
                     <Input id="firstName" placeholder="John" />
                   </div>
-                  <div className="space-y-2">
+                  {/* <div className="space-y-2">
                     <label htmlFor="lastName" className="text-sm font-medium">
                       Last Name
                     </label>
                     <Input id="lastName" placeholder="Doe" />
-                  </div>
-                </div>
-                <div className="space-y-2">
+                  </div> */}
+
+                  <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium">
                     Email
                   </label>
                   <Input id="email" type="email" placeholder="john@example.com" />
                 </div>
-                <div className="space-y-2">
+                </div>
+                
+                {/* <div className="space-y-2">
                   <label htmlFor="subject" className="text-sm font-medium">
                     Subject
                   </label>
                   <Input id="subject" placeholder="Project Inquiry" />
-                </div>
+                </div> */}
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium">
                     Message

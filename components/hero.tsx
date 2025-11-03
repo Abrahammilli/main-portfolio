@@ -31,7 +31,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Frontend Developer & UI/UX Enthusiast
+            Frontend Developer
           </motion.p>
 
           <motion.p
@@ -65,8 +65,8 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 1 }}
           >
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
+              { icon: Github, href: "https://github.com/Abrahammilli", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/abraham-oludare-65432238a/", label: "LinkedIn" },
               { icon: Mail, href: "#contact", label: "Email" },
             ].map((social, index) => (
               <motion.a

@@ -13,7 +13,7 @@ export function About() {
     },
     {
       icon: Palette,
-      title: "UI/UX Design",
+      title: "Beautifull Design",
       description: "Creating beautiful, intuitive interfaces that provide excellent user experiences.",
     },
     {
@@ -58,10 +58,10 @@ export function About() {
               functional. Every project is an opportunity to learn something new and push the boundaries of what's
               possible.
             </p>
-            <p className="text-muted-foreground">
+            {/* <p className="text-muted-foreground">
               When I'm not coding, you can find me exploring new technologies, contributing to open source projects, or
               sharing knowledge with the developer community.
-            </p>
+            </p> */}
           </motion.div>
 
           <motion.div

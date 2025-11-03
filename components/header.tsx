@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { ThemeToggle } from "@/components/theme-toggle"
+// import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
@@ -54,12 +54,12 @@ export function Header() {
                 {item.label}
               </motion.a>
             ))}
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
           </nav>
 
           {/* Mobile Navigation */}
           <div className="md:hidden flex items-center space-x-2">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             <Button variant="ghost" size="icon" onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </Button>
