@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 mt-10  lg:px-8">
       <div className="text-center max-w-4xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <motion.h1
@@ -87,7 +87,7 @@ export function Hero() {
         </motion.div>
 
         <motion.div
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+          className="absolute right-1/2 transform -translate-x-1/2"
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
         >
