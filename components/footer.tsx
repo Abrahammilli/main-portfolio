@@ -8,7 +8,7 @@ export function Footer() {
     { icon: Github, href: "https://github.com/Abrahammilli", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/abraham-oludare-65432238a/", label: "LinkedIn" },
     { icon: Mail, href: "#contact", label: "Email" },
-  ]
+  ] 
 
   return (
     <footer className="py-12 px-4 sm:px-6 lg:px-8 border-t">
@@ -19,11 +19,12 @@ export function Footer() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
+        
         >
           <div className="text-center md:text-left">
             <p className="text-muted-foreground">© 2024 Milli Tech. All rights reserved.</p>
             <p className="text-sm text-muted-foreground flex items-center justify-center md:justify-start mt-1">
-              Made with <Heart className="h-4 w-4 mx-1 text-red-500" /> and lots of coffee
+              Made with <Heart className="h-4 w-4 mx-1 text-red-500" /> 
             </p>
           </div>
 
