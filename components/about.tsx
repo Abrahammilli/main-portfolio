@@ -3,6 +3,9 @@
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Code, Palette, Zap } from "lucide-react"
+import abraham2 from './assets/abraham2.png'
+
+
 
 export function About() {
   const features = [
@@ -71,8 +74,12 @@ export function About() {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <div className="aspect-square bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl flex items-center justify-center">
-              <div className="text-6xl">👨‍💻</div>
+            <div className="aspect-square bg-gradient-to-br from-primary/20 to-secondary/20 rounded-2xl flex items-center justify-center ">
+              {/* { <div className="text-6xl">👨‍💻</div> } */}
+              <img 
+               src={abraham2.src}
+               alt="a picture of me"
+               />
             </div>
           </motion.div>
         </div>

@@ -103,7 +103,7 @@ export function Contact() {
                     <label htmlFor="firstName" className="text-sm font-medium">
                       Full Name
                     </label>
-                    <Input id="firstName" placeholder="John" />
+                    <Input id="firstName" placeholder="enter your full name" />
                   </div>
                   {/* <div className="space-y-2">
                     <label htmlFor="lastName" className="text-sm font-medium">
@@ -116,7 +116,7 @@ export function Contact() {
                   <label htmlFor="email" className="text-sm font-medium">
                     Email
                   </label>
-                  <Input id="email" type="email" placeholder="john@example.com" />
+                  <Input id="email" type="email" placeholder="enter your email" />
                 </div>
                 </div>
                 
